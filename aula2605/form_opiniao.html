@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opinião sobre o site</title>
+</head>
+<body>
+    <h1>Sua opinião sobre o site</h1>
+    <form action="recebe_opiniao.php" method="post">
+        <p>
+            O que achou do site ?
+        </p>
+        <p>
+            <label for="inputNota"></label>
+            <input type="radio" name="inputNota" id="inputNota" value="Muito Bom">Muito bom 
+            <input type="radio" name="inputNota" id="inputNota" value="Bom">Bom
+            <input type="radio" name="inputNota" id="inputNota" value="Regular">Regular
+            <input type="radio" name="inputNota" id="inputNota" value="Ruim">Ruim
+        </p>
+        <p>
+            Que produtos loca com frequência ?
+        </p>
+        <p>
+            <label for="inputTipo"></label>
+            <select name="inputTipo" id="inputTipo">
+                <option value="DVD">DVD</option> 
+                <option value="CD">CD</option>
+                <option value="GAME">GAME</option>     
+            </select>
+        </p>
+        <p>
+            Seu comentário:
+        </p>
+        <p>
+            <textarea name="inputComentario" id="inputComentario"
+            cols="50" rows="5"></textarea>
+        </p>
+        <input type="submit" value="Enviar Dados">
+    </form>
+</body>
+</html>
