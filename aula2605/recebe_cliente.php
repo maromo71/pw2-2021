@@ -8,7 +8,7 @@
 </head>
 <body>
 <?php
-    $nome_cliente = $_POST["inputNome"];
+    $nome_cliente = htmlspecialchars($_POST["inputNome"]);
     $idade = $_POST["inputIdade"];
 ?>
 <div class="container">
