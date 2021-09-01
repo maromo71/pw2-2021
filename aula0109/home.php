@@ -24,7 +24,8 @@
     <div class="container">
         <h1>Usuário Logado: <?=$_SESSION["usuario"]?></h1>
         <p>Aqui a vitrine da loja</p>
+        <a class="btn btn-primary" href="destroy.php">Efetuar Logoff</a>
     </div>
-    <a href="destroy.php">Efetuar Logoff</a>
+    
 </body>
 </html>

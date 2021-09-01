@@ -11,7 +11,7 @@
     <div class="container">
         <h1>Erro</h1>
         <h2>Usuário inválido</h2>
-        <a href="login.php">Logar novamente</a>
+        <a class="btn btn-primary" href="login.php">Logar novamente</a>
     </div>
     
 </body>
